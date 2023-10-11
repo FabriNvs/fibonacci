@@ -5,6 +5,9 @@
 
 #sumar los primeros 10 números enteros
 
-suma=1+2+3+4+5+6+7+8+9+10
+N=int(input("N= "))
+suma=0
+for x in range(N+1):
+    suma+=x
 
 print(suma)
